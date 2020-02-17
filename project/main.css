@@ -9,8 +9,9 @@ body {
 }
 
 a {
-	color: #ff0;
+	color: #ffffff;
 	text-decoration: none;
+	font-size: 18px;
 }
 
 a:hover {
@@ -32,7 +33,7 @@ canvas {
 	width: 100%;
 	padding: 10px;
 	box-sizing: border-box;
-	text-align: center;
+	text-align: left;
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
