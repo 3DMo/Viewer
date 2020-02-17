@@ -86,6 +86,12 @@
 				controls.enableZoom = true;
 				controls.enablePan = false;
 				controls.enableDamping = false;
+				controls.minDistance = 800;
+                controls.maxDistance = 3000;
+				//OrbitControls.minDistance = 10;
+                //OrbitControls.maxDistance = 20;
+				//OrbitControls.minZoom = 10;
+                //OrbitControls.maxZoom = 20;
 
 				// Beckmann
 
@@ -197,6 +203,7 @@
 
 			function animate() {
 				requestAnimationFrame( animate );
+				controls.update();
 				render();
 			}
 			
